@@ -2,8 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-/* body {
-  max-width: "1400px";
-  margin: 0 auto;
-  background-color:  ;
-} */
+@layer utilities{
+  .gradient-text {
+    background-image: linear-gradient(to right,  #00e5d1 , #2577f9);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
+}

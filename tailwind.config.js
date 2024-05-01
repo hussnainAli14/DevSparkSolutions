@@ -9,6 +9,11 @@ module.exports = {
     extend: {
       backgroundImage: {
         heroBgImg: "url('/images/heroImg.jpeg')",
+        rightGradient:
+          "radial-gradient(ellipse, rgba(0, 229, 209, .2),rgba(0, 229, 209, .1),#030303)",
+        bodyGradient:
+          " radial-gradient(circle at left in hsl longer hue, red 90%, blue, green 100%)",
+        textGradient: "linear-gradient(158deg, #00e5d1 3%, #2577f9 99%);",
       },
       //   backgroundImage: {
       //     "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -23,6 +28,8 @@ module.exports = {
       white: "#fff",
       royalblue: "#2577f9",
       herobackgroundcolor: "#1a1940",
+      backgroundPatternRight: "rgba(37, 173, 249, .1)",
+      backgroundPatternLeft: "rgba(0, 229, 209, .5)",
     },
   },
   plugins: [],
