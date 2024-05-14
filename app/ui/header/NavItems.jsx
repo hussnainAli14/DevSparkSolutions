@@ -15,7 +15,7 @@ const NavItems = () => {
     setHoveredItem(null);
   };
   return (
-    <ul className="flex flex-row justify-between items-center gap-10 border-solid border-[1px] border-t-darkgrey/20 border-white/30 py-1 px-6 rounded-2xl ">
+    <ul className="flex flex-row justify-between items-center gap-10 border-solid border-[1px] border-t-darkgrey/20 border-white/30 py-1 px-6 rounded-2xl bg-black ">
       {navItems.map((item) => (
         <li
           key={item.name}

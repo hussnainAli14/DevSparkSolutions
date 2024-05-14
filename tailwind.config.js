@@ -13,7 +13,12 @@ module.exports = {
           "radial-gradient(ellipse, rgba(0, 229, 209, .2),rgba(0, 229, 209, .1),#030303)",
         bodyGradient:
           " radial-gradient(circle at left in hsl longer hue, red 90%, blue, green 100%)",
-        textGradient: "linear-gradient(158deg, #00e5d1 3%, #2577f9 99%);",
+        featureGradient:
+          "linear-gradient(to bottom ,black 0%, black 50%,royalblue,turquoise 99%)",
+        horizontalGradient:
+          "linear-gradient(to right ,royalblue 0%,turquoise 99%)",
+        pricingCardGradient: " linear-gradient(128deg, #0063ff 22%, #02ade5);",
+        formGradient: "linear-gradient(#191919, #030303);",
       },
       //   backgroundImage: {
       //     "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -23,6 +28,8 @@ module.exports = {
     },
     colors: {
       black: "#030303",
+      lightBlack: "#191919",
+      lightGray: "rgba(34, 34, 34, .56) ",
       darkgrey: "#969696",
       turquoise: "#00e5d1",
       white: "#fff",
@@ -30,6 +37,7 @@ module.exports = {
       herobackgroundcolor: "#1a1940",
       backgroundPatternRight: "rgba(37, 173, 249, .1)",
       backgroundPatternLeft: "rgba(0, 229, 209, .5)",
+      transparent: "transparent",
     },
   },
   plugins: [],

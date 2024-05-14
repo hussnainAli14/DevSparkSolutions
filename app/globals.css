@@ -2,12 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities{
+@layer utilities {
   .gradient-text {
-    background-image: linear-gradient(to right,  #00e5d1 , #2577f9);
+    background-image: linear-gradient(to right, #00e5d1, #2577f9);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
   }
-  
+}
+/* Define custom scrollbar styles */
+::-webkit-scrollbar {
+  width: 5px; /* Adjust scrollbar width */
+}
+
+::-webkit-scrollbar-track {
+  background: linear-gradient(
+    to bottom,
+    #ccc,
+    #fff
+  ); /* Apply linear gradient to track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the thumb */
+  border-radius: 5px; /* Round corners */
+}
+
+/* Hide scrollbar on mobile screens */
+@media (max-width: 768px) {
+  ::-webkit-scrollbar {
+    display: none;
+  }
 }

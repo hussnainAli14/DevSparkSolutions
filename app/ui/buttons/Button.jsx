@@ -1,23 +1,25 @@
-"use client";
-
+import Link from "next/link";
 import React from "react";
 
 const Button = ({
   btnText,
-  handleClick,
   bgColor = "bg-royalblue/90",
+  hoverColor = "bg-royalblue/70",
   type,
-  textColor = 'white',
-  width="w-auto"
+  textColor = "white",
+  width = "w-fit",
+  className,
+  href = "/",
 }) => {
   return (
-    <button
+    <Link
       className={`${
         type === "primary" ? " py-2 px-5" : "py-1 px-3.5"
-      } ${bgColor} rounded-full border-solid border-[1px] text-center border-white/70 hover:bg-royalblue/70 text-${textColor} ${width} `}
+      } ${bgColor} rounded-full border-solid border-[1px] text-center text-sm border-white/70 ${`hover:${hoverColor}`} text-${textColor} ${width} ${className} `}
+      href={href}
     >
-      <p className="text-sm">{btnText}</p>
-    </button>
+      {btnText}
+    </Link>
   );
 };
 
