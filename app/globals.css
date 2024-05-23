@@ -9,6 +9,13 @@
     background-clip: text;
     color: transparent;
   }
+  .stroked-text {
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #969696;
+    font-size: 6rem;
+    line-height: 100%;
+  }
 }
 /* Define custom scrollbar styles */
 ::-webkit-scrollbar {
@@ -33,4 +40,19 @@
   ::-webkit-scrollbar {
     display: none;
   }
+}
+
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(30px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+
+.animation {
+  animation: fade-up 0.5s;
 }

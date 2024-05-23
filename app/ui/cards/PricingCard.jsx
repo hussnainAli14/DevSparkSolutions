@@ -19,7 +19,7 @@ const PricingCard = ({
   const cardBg = isPro ? "bg-pricingCardGradient" : bgColor;
   return (
     <div
-      className={`relative text-white py-5 px-10 border-[1px] border-solid border-white/70 ${cardBg} rounded-xl flex flex-col gap-5 `}
+      className={`relative w-full text-white py-5 px-10 border-[1px] border-solid border-white/70 ${cardBg} rounded-xl flex flex-col gap-5 hover:shadow-xl hover:shadow-backgroundPatternRight hover:translate-y-[-5px] `}
     >
       {isPro && (
         <div className="absolute flex items-center justify-center bg-white text-center text-black rounded-3xl py-2 px-3 top-[-15px] left-[35%] ">
@@ -47,6 +47,7 @@ const PricingCard = ({
             type="primary"
             width="w-full"
             className="w-full align-middle "
+            href="contact-us"
           />
           <button
             className={`text-white border-b-2 self-center border-b-white pb-2 px-3 flex flex-row justify-center items-center w-fit `}
@@ -76,12 +77,7 @@ const PricingCard = ({
             bgColor="bg-white"
             textColor="black"
             width="w-full"
-          />
-          <Button
-            btnText="Write a message"
-            type="primary"
-            bgColor="bg-black"
-            width="w-full"
+            href="contact-us"
           />
         </div>
       )}

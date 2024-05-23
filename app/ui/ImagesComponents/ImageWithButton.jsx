@@ -1,10 +1,12 @@
 import Image from "next/image";
 import React from "react";
 import Button from "../buttons/Button";
+import MotionDiv from "@/app/components/motionContainers/MotionDiv";
+import { fadeInBottomVariant } from "@/app/lib/variants";
 
 const ImageWithButton = ({ src }) => {
   return (
-    <div className="relative">
+    <MotionDiv variants={fadeInBottomVariant} className="relative">
       <Image
         src={src}
         alt="story "
@@ -19,7 +21,7 @@ const ImageWithButton = ({ src }) => {
         bgColor="bg-white"
         href="/contact-us"
       />
-    </div>
+    </MotionDiv>
   );
 };
 

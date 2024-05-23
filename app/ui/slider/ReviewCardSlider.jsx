@@ -4,6 +4,7 @@ import "swiper/css";
 import ReviewCard from "../cards/ReviewCard";
 import SliderNextBtn from "../buttons/SliderNextBtn";
 import SliderPreviousButton from "../buttons/SliderPreviousButton";
+import { customerReviews } from "@/app/lib/data";
 
 const ReviewCardSlider = () => {
   return (
@@ -18,10 +19,6 @@ const ReviewCardSlider = () => {
           slidesPerView: 2,
           spaceBetween: 10,
         },
-        984: {
-          slidesPerView: 3,
-          spaceBetween: 10,
-        },
         1200: {
           slidesPerView: 3,
           spaceBetween: 30,
@@ -32,18 +29,11 @@ const ReviewCardSlider = () => {
         <SliderPreviousButton />
         <SliderNextBtn />
       </div>
-      <SwiperSlide>
-        <ReviewCard />
-      </SwiperSlide>
-      <SwiperSlide>
-        <ReviewCard />
-      </SwiperSlide>
-      <SwiperSlide>
-        <ReviewCard />
-      </SwiperSlide>
-      <SwiperSlide>
-        <ReviewCard />
-      </SwiperSlide>
+      {customerReviews.map((review, index) => (
+        <SwiperSlide key={index}>
+          <ReviewCard review={review} />
+        </SwiperSlide>
+      ))}
     </Swiper>
   );
 };

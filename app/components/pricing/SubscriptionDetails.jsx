@@ -7,8 +7,8 @@ import React from "react";
 
 const SubscriptionDetails = () => {
   return (
-    <MaxWidthWrapper className="py-32 px-10">
-      <H1>
+    <MaxWidthWrapper className="py-32 px-0 sm:px-10">
+      <H1 className="text-center sm:text-start">
         Super Simple <span className="gradient-text">Subscriptions.</span>
       </H1>
       <div className="grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-items-center gap-y-5 md:flex-nowrap pt-10 ">

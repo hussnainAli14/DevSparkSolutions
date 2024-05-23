@@ -9,6 +9,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         heroBgImg: "url('/images/heroImg.jpeg')",
+        buttonGradient: " linear-gradient(90deg, #02ade5 10%, #0063ff );",
+
         rightGradient:
           "radial-gradient(ellipse, rgba(0, 229, 209, .2),rgba(0, 229, 209, .1),#030303)",
         bodyGradient:

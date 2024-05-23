@@ -9,7 +9,7 @@ const KeyFeatures = () => {
   const totalItems = features.length;
   return (
     <MaxWidthWrapper className="gap-10">
-      <H1 className="text-center">
+      <H1 className="text-center" isAnimated={true}>
         <span className="gradient-text"> Laser Focused </span> on 3 <br /> key
         aspects of design.
       </H1>
@@ -24,13 +24,14 @@ const KeyFeatures = () => {
         ))}
       </div>
       <div className="flex flex-row gap-4">
-        <Button btnText="See our plans" href="/pricing" />
+        <Button btnText="See our plans" href="/pricing" type="primary" />
         <Button
           btnText="Unique Project"
           bgColor="bg-white"
           hoverColor="bg-transparent"
           textColor="black"
           href="/contact-us"
+          type="primary"
         />
       </div>
     </MaxWidthWrapper>

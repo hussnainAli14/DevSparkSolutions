@@ -1,4 +1,5 @@
 import { valueItems } from "@/app/lib/data";
+import { fadeInBottomVariant } from "@/app/lib/variants";
 import ValueCard from "@/app/ui/cards/ValueCard";
 import H1 from "@/app/ui/heading/H1";
 import MaxWidthWrapper from "@/app/ui/layout/MaxWidthWrapper";
@@ -8,7 +9,12 @@ const Value = () => {
   return (
     <MaxWidthWrapper>
       <div className="flex flex-col justify-center gap-10 items-center pt-20">
-        <H1 color="text-white">
+        <H1
+          isAnimated={true}
+          variants={fadeInBottomVariant}
+          color="text-white"
+          className="text-center sm:text-start"
+        >
           DevSpark Solution <span className="gradient-text">Values.</span>
         </H1>
         <div className="flex flex-row flex-wrap gap-4 justify-center  ">

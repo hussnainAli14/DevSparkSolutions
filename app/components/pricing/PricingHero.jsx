@@ -1,6 +1,9 @@
 import React from "react";
 import MaxWidthWrapper from "@/app/ui/layout/MaxWidthWrapper";
 import HeroTextSection from "@/app/ui/global/HeroTextSection";
+import Image from "next/image";
+import MotionDiv from "../motionContainers/MotionDiv";
+import { fadeInRightVariant } from "@/app/lib/variants";
 
 const PricingHeroSection = () => {
   return (
@@ -17,7 +20,15 @@ const PricingHeroSection = () => {
             }
             para="We offer a choice of subscription plans so you can request quality design work on-demand — or fixed pricing for those one-off projects. It’s your choice."
           />
-          <div>Image Section here</div>
+          <MotionDiv className="hidden sm:block" variants={fadeInRightVariant}>
+            <Image
+              src="/images/Pricing.png"
+              alt="Pricing Illustration"
+              width={300}
+              height={100}
+              className="w-full"
+            />
+          </MotionDiv>
         </div>
       </div>
     </MaxWidthWrapper>

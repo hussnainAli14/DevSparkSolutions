@@ -6,6 +6,7 @@ import Work from "./components/home/Work";
 import HeroSection from "./components/home/heroSection";
 import Review from "./components/home/Review";
 import FinalSection from "./components/home/FinalSection";
+import CompanyMarquee from "./ui/global/CompanyMarquee";
 export default function Home() {
   return (
     <main
@@ -16,6 +17,7 @@ export default function Home() {
       <KeyFeatures />
       <Reason />
       <Work />
+      <CompanyMarquee />
       <Review />
       <FinalSection />
     </main>

@@ -110,7 +110,7 @@ const ContactForm = () => {
       />
 
       <div className="flex flex-col lg:flex-row justify-between items-center py-5">
-        <div className="flex flex-col lg:flex-row ">
+        <div className="flex flex-col lg:flex-row gap-10 ">
           <Paragraph
             color="text-white"
             className="flex flex-row gap-3 items-center"

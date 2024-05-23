@@ -6,17 +6,25 @@ import React from "react";
 import Journey from "./Journey";
 import H2 from "@/app/ui/heading/H2";
 import HorizontalTextImageCard from "@/app/ui/cards/HorizontalTextImageCard";
+import { fadeInLeftVariant } from "@/app/lib/variants";
 
 const Story = () => {
   return (
     <div className="bg-white my-20 py-20 px-5 md:px-0 ">
       <MaxWidthWrapper hasItemsCentered={false}>
-        <H1 color="text-black" className="text-center md:text-start">
+        <H1
+          isAnimated={true}
+          variants={fadeInLeftVariant}
+          color="text-black"
+          className="text-center md:text-start"
+        >
           The origin <span className="gradient-text">story</span>
         </H1>
         <Paragraph
           color="text-black/70"
           className="md:w-1/2 font-semibold text-center md:text-start "
+          isAnimated={true}
+          variants={fadeInLeftVariant}
         >
           The partnership behind Dev Spark Solutions began a long time before
           the company was officially established. Our founders Joe Murray and
@@ -29,10 +37,17 @@ const Story = () => {
 
         <Journey />
         <ImageWithButton src="/images/storyMain.webp" />
-        <H2 color="text-black" className="pt-10">
+        <H2
+          isAnimated={true}
+          variants={fadeInLeftVariant}
+          color="text-black"
+          className="pt-10"
+        >
           A little over 2 years in,
         </H2>
         <Paragraph
+          isAnimated={true}
+          variants={fadeInLeftVariant}
           py="py-1"
           color="text-black/70"
           className="md:w-1/2 w-full font-semibold "

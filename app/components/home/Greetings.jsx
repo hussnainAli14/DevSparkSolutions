@@ -5,12 +5,18 @@ import Paragraph from "../../ui/paragraph/Paragraph";
 import H1 from "../../ui/heading/H1";
 import H2 from "../../ui/heading/H2";
 import MaxWidthWrapper from "@/app/ui/layout/MaxWidthWrapper";
+import MotionDiv from "../motionContainers/MotionDiv";
+import { fadeInLeftVariant, fadeInRightVariant } from "@/app/lib/variants";
+import Image from "next/image";
 
 const Greetings = () => {
   return (
     <GradientWrapper>
       <MaxWidthWrapper className="md:flex-row md:justify-between">
-        <div className="flex flex-col items-left md:w-[60%] ">
+        <MotionDiv
+          variants={fadeInLeftVariant}
+          className="flex flex-col items-left md:w-[60%] "
+        >
           <H1>
             We &apos; re{" "}
             <span className="blue-text gradient-text">DevSpark Solutions.</span>
@@ -33,8 +39,16 @@ const Greetings = () => {
             width="w-[8rem]"
             href="/contact-us"
           />
-        </div>
-        <div className="text-white">Right robot</div>
+        </MotionDiv>
+        <MotionDiv variants={fadeInRightVariant} className="text-white">
+          <Image
+            src="/images/MainIllustration.webp"
+            alt="Main Illustration"
+            height={100}
+            width={400}
+            className="w-full"
+          />
+        </MotionDiv>
       </MaxWidthWrapper>
     </GradientWrapper>
   );

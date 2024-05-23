@@ -11,11 +11,11 @@ const Plan = () => {
       <H1>
         Pick the perfect <span className="gradient-text">Plan.</span>
       </H1>
-      <Paragraph>
+      <Paragraph className="text-center sm:text-start">
         Choose a plan that is right for you — Plans can be paused or cancelled
         at anytime.
       </Paragraph>
-      <div className="grid grid-flow-row grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 py-10 px-20">
+      <div className="grid grid-flow-row justify-items-center grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 py-10 px-0 sm:px-20">
         {subscriptionPlans.map((plan, index) => (
           <PricingCard
             headingText={plan.headingText}

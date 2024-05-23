@@ -11,7 +11,7 @@ const page = () => {
   return (
     <>
       <MaxWidthWrapper>
-        <div className="py-20 px-5 md:px-20 ">
+        <div className="pt-20 px-5 md:px-20 ">
           <H1 className="text-center ">
             Talk to <span className="gradient-text ">Dev Spark Solutions.</span>
           </H1>
@@ -27,7 +27,7 @@ const page = () => {
       </MaxWidthWrapper>
 
       <div className="w-full px-5 md:px-20 ">
-        <Review />
+        <Review py="py-0" pt={"pt-32"} />
       </div>
     </>
   );

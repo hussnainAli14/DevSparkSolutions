@@ -1,6 +1,9 @@
 import React from "react";
 import HeroTextSection from "../../../ui/global/HeroTextSection";
 import MaxWidthWrapper from "@/app/ui/layout/MaxWidthWrapper";
+import MotionDiv from "../../motionContainers/MotionDiv";
+import { fadeInRightVariant } from "@/app/lib/variants";
+import Image from "next/image";
 
 const AboutHeroSection = () => {
   return (
@@ -19,7 +22,15 @@ const AboutHeroSection = () => {
         do, and who’s behind the unique work we create. Or, if you prefer, give
         us a call and we’ll tell you ourselves."
           />
-          <div>Image Section here</div>
+          <MotionDiv variants={fadeInRightVariant}>
+            <Image
+              src="/images/About.png"
+              alt="About Illustration"
+              height={100}
+              width={300}
+              className="w-full"
+            />
+          </MotionDiv>
         </div>
       </div>
     </MaxWidthWrapper>

@@ -6,12 +6,12 @@ import React from "react";
 const FeaturesInSubscription = () => {
   return (
     <>
-      <MaxWidthWrapper className="py-30">
+      <MaxWidthWrapper className="py-30 px ">
         <H1 color="text-white" className="text-center">
           Designs of any size, style or purpose all included in{" "}
           <span className="gradient-text"> your subscription.</span>
         </H1>
-        <Paragraph>
+        <Paragraph className="text-center sm:text-start">
           We’re honest about our skills and abilities — and we’re delighted that
           our clients agree.
         </Paragraph>

@@ -11,7 +11,7 @@ const Expect = () => {
         What to expect when you{" "}
         <span className="gradient-text">subscribe.</span>
       </H1>
-      <div className="grid grid-flow-row grid-cols-1 sm:grid-cols-2 pt-20 md:grid-cols-3 gap-5">
+      <div className="grid grid-flow-row grid-cols-1 sm:grid-cols-2 pt-20 md:grid-cols-3 gap-7">
         {expectedFeatures.map((el, index) => (
           <IconWithText
             icon={el.icon}

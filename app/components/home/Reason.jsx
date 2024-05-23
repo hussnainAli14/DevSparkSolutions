@@ -7,7 +7,7 @@ import { reasons } from "@/app/lib/data";
 const Reason = () => {
   return (
     <MaxWidthWrapper className="gap-5 py-20 " maxWidth="max-w-6xl">
-      <H1 className=" py-14">
+      <H1 className=" py-14" isAnimated={true}>
         Why work <span className="gradient-text">with us?</span>
       </H1>
       <ImageTextSlider data={reasons} />

@@ -2,6 +2,8 @@ import Image from "next/image";
 import React from "react";
 import Paragraph from "../paragraph/Paragraph";
 import Tag from "../tags/Tag";
+import MotionDiv from "@/app/components/motionContainers/MotionDiv";
+import { fadeInLeftVariant, fadeInRightVariant } from "@/app/lib/variants";
 
 const FounderCard = ({
   item,
@@ -13,9 +15,11 @@ const FounderCard = ({
   width = "w-[45%]",
   imgBg = "transparent",
 }) => {
+  const isOdd = index % 2 !== 0;
   return (
-    <div
+    <MotionDiv
       className={`flex flex-col gap-5 pt-3 pb-10 px-5 bg-lightGray w-[90%] md:${width} rounded-xl `}
+      variants={isOdd ? fadeInRightVariant : fadeInLeftVariant}
     >
       <div className={` ${imgBg} rounded-lg`}>
         <Image
@@ -35,7 +39,7 @@ const FounderCard = ({
       </p>
       {showTag && <Tag tagName={item.role} />}
       <Paragraph py="1">{item.desc}</Paragraph>
-    </div>
+    </MotionDiv>
   );
 };
 

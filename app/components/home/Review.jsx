@@ -6,14 +6,14 @@ import Paragraph from "@/app/ui/paragraph/Paragraph";
 import ReviewCardSlider from "@/app/ui/slider/ReviewCardSlider";
 import React from "react";
 
-const Review = () => {
+const Review = ({ py, pt }) => {
   return (
-    <div className="py-36">
-      <H2 className="text-center">
+    <div className={`${py ? py : "py-36"} ${pt} `}>
+      <H2 isAnimated={true} className="text-center">
         What our clients think of{" "}
         <span className="gradient-text">DevSpark Solutions.</span>
       </H2>
-      <Paragraph className="text-center">
+      <Paragraph isAnimated={true} className="text-center">
         We’re honest about our skills and abilities — and we’re delighted that
         our clients agree.
       </Paragraph>

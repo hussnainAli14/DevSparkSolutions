@@ -9,10 +9,11 @@ const ServicesHero = () => {
   return (
     <MaxWidthWrapper>
       <div className="flex flex-col justify-center items-center py-20">
-        <H1>
+        <H1 isAnimated={true}>
           Our <span className="gradient-text"> Services </span>
         </H1>
         <Paragraph
+          isAnimated={true}
           color="text-white"
           className="text-center w-full md:w-3/4 lg:w-1/2 "
         >

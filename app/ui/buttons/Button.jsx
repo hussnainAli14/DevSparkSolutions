@@ -1,9 +1,10 @@
 import Link from "next/link";
 import React from "react";
+import { motion } from "framer-motion";
 
 const Button = ({
   btnText,
-  bgColor = "bg-royalblue/90",
+  bgColor = "bg-buttonGradient",
   hoverColor = "bg-royalblue/70",
   type,
   textColor = "white",

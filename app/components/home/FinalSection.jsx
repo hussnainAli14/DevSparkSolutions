@@ -12,10 +12,10 @@ const FinalSection = () => {
         src="/images/avatar.webp"
         className="absolute bottom-[-1rem] left-1/2 transform translate-x-[-50%] bg-turquoise"
       />
-      <H1 className="text-center">
+      <H1 isAnimated={true} className="text-center">
         Lets get to <span className="gradient-text">work.</span>
       </H1>
-      <Paragraph color="text-white" className="text-center">
+      <Paragraph isAnimated={true} color="text-white" className="text-center">
         We’re ready to get started on your next creative project. All you need
         to do is hit the button below
       </Paragraph>
