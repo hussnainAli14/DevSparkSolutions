@@ -16,7 +16,7 @@ const MobileNavbar = () => {
       {isOpen && <MobileNavMenu handleClick={handleOpen} />}
       <Link href="/">
         <Image
-          src="/images/logo.png"
+          src="/Images/logo.png"
           alt="Logo"
           width={125}
           height={50}

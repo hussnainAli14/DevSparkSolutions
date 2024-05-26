@@ -22,7 +22,7 @@ const PricingHeroSection = () => {
           />
           <MotionDiv className="hidden sm:block" variants={fadeInRightVariant}>
             <Image
-              src="/images/Pricing.png"
+              src="/Images/Pricing.png"
               alt="Pricing Illustration"
               width={300}
               height={100}

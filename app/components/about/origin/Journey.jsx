@@ -38,11 +38,11 @@ const Journey = () => {
             knowledge. We always strive to give our best, ensuring that every
             client is satisfied with the results.
           </Paragraph>
-          <Button btnText="Start a project" type="primary" />
+          <Button btnText="Start a project" type="primary" href="contact-us" />
         </MotionDiv>
         <MotionDiv variants={fadeInRightVariant}>
           <Image
-            src="/images/journey.webp"
+            src="/Images/journey.webp"
             alt="journey"
             width={400}
             height={300}

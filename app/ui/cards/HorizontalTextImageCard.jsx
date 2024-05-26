@@ -24,7 +24,7 @@ const HorizontalTextImageCard = () => {
       </div>
       <div className="hidden md:block">
         <Image
-          src="/images/Growth.png"
+          src="/Images/Growth.png"
           alt="Slider Image"
           width={300}
           height={100}

@@ -24,7 +24,7 @@ const AboutHeroSection = () => {
           />
           <MotionDiv variants={fadeInRightVariant}>
             <Image
-              src="/images/About.png"
+              src="/Images/About.png"
               alt="About Illustration"
               height={100}
               width={300}

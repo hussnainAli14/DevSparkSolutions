@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        heroBgImg: "url('/images/heroImg.jpeg')",
+        heroBgImg: "url('/Images/heroImg.jpeg')",
         buttonGradient: " linear-gradient(90deg, #02ade5 10%, #0063ff );",
 
         rightGradient:

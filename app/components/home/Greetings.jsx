@@ -45,7 +45,7 @@ const Greetings = () => {
         </MotionDiv>
         <MotionDiv variants={fadeInRightVariant} className="text-white">
           <Image
-            src="/images/MainIllustration.webp"
+            src="/Images/MainIllustration.webp"
             alt="Main Illustration"
             height={100}
             width={400}

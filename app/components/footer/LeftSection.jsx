@@ -6,7 +6,7 @@ const LeftSection = () => {
   return (
     <div className="flex flex-col justify-center items-center md:items-start md:gap-5 ">
       <Image
-        src="/images/logo.png"
+        src="/Images/logo.png"
         alt="logo"
         className="py-2"
         width={300}

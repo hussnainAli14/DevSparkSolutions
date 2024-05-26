@@ -32,10 +32,10 @@ const Story = () => {
           as their major courses —never imagining that they would be starting a
           company on their own.
         </Paragraph>
-        <ImageWithButton src="/images/storyMain.webp" />
+        <ImageWithButton src="/Images/storyMain.webp" />
 
         <Journey />
-        <ImageWithButton src="/images/storyMain.webp" />
+        <ImageWithButton src="/Images/storyMain.webp" />
         <H2
           isAnimated={true}
           variants={fadeInLeftVariant}
