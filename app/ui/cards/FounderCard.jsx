@@ -32,7 +32,7 @@ const FounderCard = ({
           alt="founder"
           width={imgWidth}
           height={imgHeight}
-          className="w-full h-64 rounded-xl "
+          className=" w-full rounded-xl "
         />
       </div>
       {showIndex && <p className="text-white">{index}</p>}

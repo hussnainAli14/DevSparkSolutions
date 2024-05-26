@@ -396,7 +396,7 @@ export const subscriptionPlans = [
 
 export const categories = [
   "Web Development",
-  " App Development",
+  "App Development",
   "Graphic Design",
   "Logo Design",
   "SEO / PPC",

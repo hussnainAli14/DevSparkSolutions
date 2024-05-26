@@ -7,7 +7,6 @@ import PriceOptions from "./PriceOptions";
 import Paragraph from "@/app/ui/paragraph/Paragraph";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
-import { POST } from "@/app/api/send/route";
 import toast, { Toaster } from "react-hot-toast";
 const ContactForm = () => {
   const [name, setName] = useState("");
