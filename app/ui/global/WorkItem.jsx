@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import H1 from "../heading/H1";
 import Paragraph from "../paragraph/Paragraph";
-import Tag from "../tags/tag";
+import Tag from "../tags/Tag";
 import WorkButton from "../buttons/WorkButton";
 import MotionDiv from "@/app/components/motionContainers/MotionDiv";
 import { fadeInLeftVariant, fadeInRightVariant } from "@/app/lib/variants";
