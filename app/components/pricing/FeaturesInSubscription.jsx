@@ -6,7 +6,7 @@ import React from "react";
 const FeaturesInSubscription = () => {
   return (
     <>
-      <MaxWidthWrapper className="py-30 px ">
+      <MaxWidthWrapper className="pt-32 ">
         <H1 color="text-white" className="text-center">
           Designs of any size, style or purpose all included in{" "}
           <span className="gradient-text"> your subscription.</span>

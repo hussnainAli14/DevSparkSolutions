@@ -17,9 +17,9 @@ const page = () => {
           </H1>
           <Paragraph py="py-7" className="text-center">
             Focusing on what we’re good at means we can deliver unrivalled
-            quality every time. Our services fall into three main buckets — web,
-            systems and graphic design. If you’re unsure where your next project
-            would sit, give us a call.
+            quality every time. Our services fall into six main buckets — web,
+            mobile app, systems and graphic design, SEO, SMMA, lead generation.
+            If you’re unsure where your next project would sit, give us a call.
           </Paragraph>
           <BookCall />
           <ContactForm />

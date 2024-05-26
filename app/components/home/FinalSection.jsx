@@ -7,7 +7,7 @@ import React from "react";
 
 const FinalSection = () => {
   return (
-    <MaxWidthWrapper className="relative bg-heroBgImg bg-cover bg-center py-28 items-center rounded-lg ">
+    <MaxWidthWrapper className="relative bg-heroBgImg bg-cover bg-center py-28  items-center rounded-lg ">
       <RoundedImage
         src="/images/avatar.webp"
         className="absolute bottom-[-1rem] left-1/2 transform translate-x-[-50%] bg-turquoise"

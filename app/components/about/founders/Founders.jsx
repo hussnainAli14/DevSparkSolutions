@@ -1,12 +1,21 @@
+"use client";
+
 import { foundersData } from "@/app/lib/data";
-import { fadeInBottomVariant } from "@/app/lib/variants";
 import FounderCard from "@/app/ui/cards/FounderCard";
 import H1 from "@/app/ui/heading/H1";
 import MaxWidthWrapper from "@/app/ui/layout/MaxWidthWrapper";
 import Paragraph from "@/app/ui/paragraph/Paragraph";
-import React from "react";
+import React, { useState } from "react";
 
 const Founders = () => {
+  const [expandedCards, setExpandedCards] = useState({});
+
+  const handleToggleExpand = (index) => {
+    setExpandedCards((prev) => ({
+      ...prev,
+      [index]: !prev[index],
+    }));
+  };
   return (
     <MaxWidthWrapper>
       <div className="flex flex-col gap-10 items-center justify-center py-20 ">
@@ -23,9 +32,15 @@ const Founders = () => {
           equality of ideas, cross-pollination of skills and a healthy obsession
           with quality. Here’s the team that makes it happen.
         </Paragraph>
-        <div className="flex flex-row flex-wrap items-center justify-center gap-5">
+        <div className="flex flex-row flex-wrap items-center md:items-start justify-center gap-5">
           {foundersData.map((founder, index) => (
-            <FounderCard item={founder} key={index} index={index} />
+            <FounderCard
+              item={founder}
+              key={index}
+              index={index}
+              isExpanded={expandedCards[index]}
+              handleToggleExpand={() => handleToggleExpand(index)}
+            />
           ))}
         </div>
       </div>

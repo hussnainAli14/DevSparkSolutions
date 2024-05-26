@@ -5,7 +5,7 @@ import MotionParagraph from "../motionContainers/MotionParagraph";
 
 const HeroSection = () => {
   return (
-    <div className="relative bg-heroBgImg bg-cover bg-center py-28 mt-5 flex flex-col gap-16 items-center rounded-2xl">
+    <div className="relative bg-heroBgImg bg-cover bg-center py-28 mt-5 flex flex-col gap-14 items-center rounded-2xl">
       <RoundedImage
         src="/images/avatar.webp"
         className="absolute bottom-[-1rem] left-1/2 transform translate-x-[-50%] bg-turquoise"
@@ -17,8 +17,8 @@ const HeroSection = () => {
         Your brand, built <span className="gradient-text">better</span>
       </MotionParagraph>
       <MotionParagraph className="text-md text-white text-center text-wrap max-w-xl text-base">
-        We transform your brand vision into tangible web, graphic, and video
-        experiences that stop prospective clients in their tracks.
+        Elevating your brand with innovative digital solutions and impactful
+        design. Driving success through creativity and technology
       </MotionParagraph>
       <Button btnText="Launch a Project" type="primary" href="/contact-us" />
     </div>

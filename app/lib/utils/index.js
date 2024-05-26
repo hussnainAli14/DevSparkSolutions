@@ -1,3 +1,7 @@
-export const truncate = (str) => {
-  return str.substring(0, str.length / 2);
+export const truncate = (str, length) => {
+  if (length) {
+    return str.substring(0, length);
+  } else {
+    return str.substring(0, str.length / 2);
+  }
 };

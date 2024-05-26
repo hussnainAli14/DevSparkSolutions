@@ -9,8 +9,8 @@ const BookCall = () => {
         <p></p>
       </div>
       <Paragraph color="text-white" className="text-2xl text-center">
-        Pick a time and date that suits you, and we will setup a video and voice
-        call - whichever works best.
+        Complete the form below, and we will reach out to you promptly. Schedule
+        a call at your convenience, tailored to fit your schedule.
       </Paragraph>
     </div>
   );

@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import Button from "../buttons/Button";
 import RoundedIconButton from "../buttons/RoundedIconButton";
 import { MdNavigateNext } from "react-icons/md";
 import { MdNavigateBefore } from "react-icons/md";
@@ -73,12 +72,6 @@ const ImageTextSlider = ({ data }) => {
         >
           {data[displayedIndex].description}
         </Paragraph>
-        <Button
-          btnText="Learn More"
-          type="primary"
-          width="w-32"
-          className={`transition-all ${animationClass}`}
-        />
       </div>
       <div className="hidden md:block lg:absolute lg:top-[-60px] lg:right-20 lg:items-center ">
         <Image
@@ -86,7 +79,7 @@ const ImageTextSlider = ({ data }) => {
           alt="Index Image"
           width={300}
           height={100}
-          className="w-[100%]"
+          className={`w-[100%] ${animationClass} `}
         />
       </div>
     </MotionDiv>

@@ -19,6 +19,7 @@ const MobileNavMenu = ({ handleClick }) => {
           name={item.name}
           description={item.description}
           icon={item.icon}
+          handleClick={handleClick}
         />
       ))}
     </div>

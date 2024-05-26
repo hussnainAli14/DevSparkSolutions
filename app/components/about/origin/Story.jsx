@@ -27,11 +27,10 @@ const Story = () => {
           variants={fadeInLeftVariant}
         >
           The partnership behind Dev Spark Solutions began a long time before
-          the company was officially established. Our founders Joe Murray and
-          Joe Crabtree first met at college, both studying creative and digital
-          media courses —never imagining that sharing a first name would make
-          their copywriter’s job unnecessarily difficult at some point in the
-          future.
+          the company was officially established. Our founders Raja Hussnain Ali
+          and Bilal Rehman first met at college, both studying Computer Science
+          as their major courses —never imagining that they would be starting a
+          company on their own.
         </Paragraph>
         <ImageWithButton src="/images/storyMain.webp" />
 
@@ -43,7 +42,7 @@ const Story = () => {
           color="text-black"
           className="pt-10"
         >
-          A little over 2 years in,
+          Over the years,
         </H2>
         <Paragraph
           isAnimated={true}
@@ -52,12 +51,12 @@ const Story = () => {
           color="text-black/70"
           className="md:w-1/2 w-full font-semibold "
         >
-          and the business has gone from strength to strength. New team members
-          have joined, widening our skillset and bringing more diversity to our
-          thinking. Client projects ship regularly, each one bringing unique
-          challenges and opportunities to stretch our creativity. And our
-          passion for Webflow design has been recognised with an official
-          professional partnership.
+          We always strive to give our best, ensuring that every client is
+          satisfied with the results. Our commitment to excellence has been the
+          cornerstone of our growth, and we continue to build strong, lasting
+          relationships with our clients. Today, we look back with pride at how
+          far we have come and look forward to future opportunities to create,
+          innovate, and excel.
         </Paragraph>
         <HorizontalTextImageCard />
       </MaxWidthWrapper>

@@ -1,3 +1,4 @@
+import ImageTextLayout from "@/app/components/projectDetails/ImageTextLayout";
 import { projects } from "@/app/lib/data";
 import WorkItem from "@/app/ui/global/WorkItem";
 import H1 from "@/app/ui/heading/H1";
@@ -11,10 +12,6 @@ const page = ({ searchParams }) => {
   const projectToShowDetails = projects.filter(
     (project) => project.id === idFromSearchParams
   );
-  const moreImagesAboutProject = [
-    projectToShowDetails[0].images[2],
-    projectToShowDetails[0].images[3],
-  ];
   return (
     <div className="bg-lightGray w-full">
       <div className="bg-black min-h-dvh">
@@ -29,19 +26,14 @@ const page = ({ searchParams }) => {
             {projectToShowDetails[0].projectCompanyandTechInfo}
           </Paragraph>
         </div>
-        <div className="flex flex-col md:flex-row items-center justify-center gap-16 w-full">
-          {moreImagesAboutProject.map((item, index) => (
-            <div
+        <div className="flex flex-col gap-20">
+          {projectToShowDetails[0].extraInfo.map((item, index) => (
+            <ImageTextLayout
+              text={item.detail}
+              image={item.image}
               key={index}
-              className="w-[95%] md:w-[35%] lg:w-full h-[300px] relative"
-            >
-              <Image
-                src={item}
-                layout="fill"
-                objectFit="contain"
-                alt="Project Image"
-              />
-            </div>
+              index={index}
+            />
           ))}
         </div>
         <Paragraph className="text-center w-[95%] md:w-3/4 m-auto pt-20 ">

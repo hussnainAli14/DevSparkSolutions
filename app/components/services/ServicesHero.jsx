@@ -18,9 +18,9 @@ const ServicesHero = () => {
           className="text-center w-full md:w-3/4 lg:w-1/2 "
         >
           Focusing on what we’re good at means we can deliver unrivalled quality
-          every time. Our services fall into three main buckets — web, systems
-          and graphic design. If you’re unsure where your next project would
-          sit, give us a call.
+          every time. Our services fall into six main buckets — web, mobile app,
+          SEO, SMMA, lead generation and graphic design. If you’re unsure where
+          your next project would sit, give us a call.
         </Paragraph>
         <div className="grid grid-flow-row grid-cols-1 md:grid-cols-2 justify-items-center lg:grid-cols-3 py-10 gap-10">
           {services.map((service, index) => (

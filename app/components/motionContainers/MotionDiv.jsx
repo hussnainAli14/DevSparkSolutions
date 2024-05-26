@@ -17,9 +17,9 @@ const MotionDiv = ({
       initial={initial}
       whileInView={whileInView}
       variants={variants}
-      className={className}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
+      className={className}
     >
       {children}
     </motion.div>

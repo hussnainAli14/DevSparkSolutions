@@ -1,14 +1,14 @@
 import React from "react";
 
 const CategoryTag = ({ name, setSelectedItems, index, selectedItems }) => {
-  const isItemSelected = selectedItems.find((x) => x === index);
+  const isItemSelected = selectedItems.some((item) => item.index === index);
+
   const handleSelect = () => {
     if (isItemSelected) {
-      const filteredState = selectedItems.filter((x) => x !== index);
+      const filteredState = selectedItems.filter((x) => x.index !== index);
       setSelectedItems(filteredState);
-      console.log(selectedItems);
     } else if (!isItemSelected) {
-      setSelectedItems((state) => [...state, index]);
+      setSelectedItems((state) => [...state, { index: index, name: name }]);
     }
   };
   return (
