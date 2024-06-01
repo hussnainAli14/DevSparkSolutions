@@ -27,7 +27,7 @@ const WorkItem = ({ el, index, hasButton = true, fullDesc = true }) => {
           alt="dummy"
           width={400}
           height={100}
-          className="pject-contain md:object-cover w-full md:w-[90%] h-[22rem]"
+          className="ect-contain md:object-cover w-full md:w-[90%] h-[22rem]"
         />
       </MotionDiv>
       <MotionDiv

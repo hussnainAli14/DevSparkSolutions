@@ -28,7 +28,7 @@ const Founders = () => {
           className="text-center w-[90%] md:w-1/2"
           py="0"
         >
-          Phunk works because it’s a genuine collaboration between experts —
+          DevCrew works because it’s a genuine collaboration between experts —
           equality of ideas, cross-pollination of skills and a healthy obsession
           with quality. Here’s the team that makes it happen.
         </Paragraph>

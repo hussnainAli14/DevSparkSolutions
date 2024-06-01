@@ -7,8 +7,8 @@ const RoundedImage = ({ src, className }) => {
       src={src !== "" ? src : "/Images/avatar.webp"}
       alt="avatar"
       className={`rounded-full w-12 h-12  ${className} `}
-      width={30}
-      height={30}
+      width={100}
+      height={100}
     />
   );
 };

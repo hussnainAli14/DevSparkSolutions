@@ -24,9 +24,8 @@ const Pricing = () => {
           variants={fadeInBottomVariant}
           className="flex flex-col sm:flex-row justify-between items-center gap-5"
         >
-          <Button btnText="See our plans" type="primary" href="/pricing" />
           <Button
-            btnText="Unique Project"
+            btnText="Start a new project"
             bgColor="bg-white"
             textColor="text-white"
             type="primary"

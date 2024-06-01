@@ -80,7 +80,7 @@ const ContactForm = () => {
             value={company}
             setValue={setCompany}
             name="companyName"
-            placeholder="DevSpark Solutions"
+            placeholder="DevCrew"
             label="Company Name"
           />
           <TextField
@@ -156,14 +156,15 @@ const ContactForm = () => {
               className="flex flex-row gap-3 items-center"
             >
               {" "}
-              <MdOutlineMailOutline color="white" size={15} /> hello@phunk.co.uk
+              <MdOutlineMailOutline color="white" size={15} />{" "}
+              contact@devcrew.tech
             </Paragraph>
             <Paragraph
               color="text-white"
               className="flex flex-row gap-3 items-center"
             >
               {" "}
-              <FaPhoneAlt color="white" size={15} /> +923456789
+              <FaPhoneAlt color="white" size={15} /> +923005258887
             </Paragraph>
           </div>
 

@@ -18,7 +18,7 @@ export async function POST(request) {
     } = body;
     const { data, error } = await resend.emails.send({
       from: "TeschSol Contact Form <onboarding@resend.dev>",
-      to: "hussnainraja768@gmail.com",
+      to: "contact@devcrew.tech",
       subject: "Request for booking",
       reply_to: email,
       react: (

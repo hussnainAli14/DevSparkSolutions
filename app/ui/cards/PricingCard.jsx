@@ -68,7 +68,7 @@ const PricingCard = ({
       ) : (
         <div className=" flex flex-col gap-5 py-10 border-t-2 border-solid border-t-white">
           <div className="flex flex-row justify-between items-center">
-            <p>hello@phunk.com</p>
+            <p>hello@DevCrew.com</p>
             <p>Tel:1234567890</p>
           </div>
           <Button

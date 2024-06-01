@@ -156,18 +156,17 @@ export const footerData = [
       { name: "About Us", path: "/about" },
       { name: "Services", path: "/services" },
       { name: "Work", path: "/work" },
-      { name: "Pricing", path: "/pricing" },
     ],
   },
   {
     heading: "Contact",
     subItems: [
       {
-        name: "Phunk Creative, Salts Mill, Victoria Rd, Saltaire, Shipley BD18 3LA",
+        name: "Office#24, 3rd floor Mall#09, G-9 Markaz Islamabad",
         path: "/",
       },
-      { name: "hello@phunk.co.uk", path: "/" },
-      { name: "+441133 908 188", path: "/" },
+      { name: "contact@devcrew.tech", path: "/" },
+      { name: "+92300525887", path: "/" },
     ],
   },
 ];
@@ -183,7 +182,7 @@ export const valueItems = [
   },
   {
     heading: "Creativity",
-    desc: "Each member of the team at Phunk has built their creative career on the principle that the work only matters if it’s original, effective and exciting — we’re not interested in building anything substandard, derivative or boring.",
+    desc: "Each member of the team at DevCrew has built their creative career on the principle that the work only matters if it’s original, effective and exciting — we’re not interested in building anything substandard, derivative or boring.",
   },
   {
     heading: "Ambition",
@@ -223,13 +222,13 @@ export const foundersData = [
     img: "/Images/members/hussnain.jpeg",
     name: "Raja Hussnain Ali",
     role: "Co Founder/ Director",
-    desc: "Meet Raja, our Co Founder and front-end developer extraordinaire at [Your Company]. With over a 5 years of experience in web development and mobile app development, Raja is a creative powerhouse. Specializing in branding, graphics, and front-end technologies, Raja thrives on bringing brands to life through visually stunning and seamlessly functional digital experiences.",
+    desc: "Meet Raja, our Co Founder and front-end developer extraordinaire at DevCrew. With over a 5 years of experience in web development and mobile app development, Raja is a creative powerhouse. Specializing in branding, graphics, and front-end technologies, Raja thrives on bringing brands to life through visually stunning and seamlessly functional digital experiences.",
   },
   {
     img: "/Images/members/bilal.png",
     name: "Bilal Rehman",
     role: "Co Founder/ Director",
-    desc: "Meet Bilal, our Co Founder and backend developer extraordinaire at Phunk. With a solid background in backend technologies and over 5 years of hands-on experience, Bilal brings a wealth of expertise to our team. Specializing in MongoDB, Node.js, PHP, Laravel, and Firebase, Bilal is adept at crafting robust and scalable backend solutions to power dynamic web applications",
+    desc: "Meet Bilal, our Co Founder and backend developer extraordinaire at DevCrew. With a solid background in backend technologies and over 5 years of hands-on experience, Bilal brings a wealth of expertise to our team. Specializing in MongoDB, Node.js, PHP, Laravel, and Firebase, Bilal is adept at crafting robust and scalable backend solutions to power dynamic web applications",
   },
   {
     img: "/Images/members/kabir.png",
@@ -255,6 +254,12 @@ export const foundersData = [
     name: "Usman Shahzad",
     role: "Senior Full Stack Engineer",
     desc: "Meet Usman, Full Stack JavaScript Engineer with 8 years of professional software development experience using JavaScript & TypeScript (NodeJs, React, Angular). Worked across various industries for Euporian and American companies such as Motive in a highly scaleable environment with a strong passion for building and debugging reliable, high availability, secure, and performant distributed services that ensure seamless user experience even in high-traffic environments.",
+  },
+  {
+    img: "/Images/members/muhammad.png",
+    name: "Muhammad Nasrullah",
+    role: "Graphic Designer and WordPress Developer",
+    desc: "Meet Muhammad, A seasoned Graphic designer and WordPress developer with a passion for creating visually stunning and user-friendly digital experiences. With years of experience in the field, he combines a keen eye for design with technical expertise to deliver websites and applications that are not only beautiful but also highly functional. Whether you need a complete website overhaul, a sleek new UI for your app, a logo for your brand, or ongoing support for your WordPress site, Muhammad is the professional you can rely on to bring your vision to life.",
   },
 ];
 

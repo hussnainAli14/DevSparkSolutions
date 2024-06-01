@@ -9,7 +9,7 @@ const Review = ({ py, pt }) => {
     <div className={`${py ? py : "py-36 "} ${pt} `}>
       <H2 isAnimated={true} className="text-center">
         What our clients think of{" "}
-        <span className="gradient-text">DevSpark Solutions.</span>
+        <span className="gradient-text">DevCrew.</span>
       </H2>
       <Paragraph isAnimated={true} className="text-center">
         We’re honest about our skills and abilities — and we’re delighted that

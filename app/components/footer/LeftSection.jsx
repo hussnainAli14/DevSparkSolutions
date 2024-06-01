@@ -4,22 +4,19 @@ import React from "react";
 
 const LeftSection = () => {
   return (
-    <div className="flex flex-col justify-center items-center md:items-start md:gap-5 ">
+    <div className="flex flex-col justify-center items-center md:items-start ">
       <Image
-        src="/Images/logo.png"
+        src="/Images/logos/logo-transparent.png"
         alt="logo"
         className="py-2"
-        width={300}
-        height={300}
+        width={150}
+        height={100}
       />
       <p className="text-white text-4xl p-0 ">
         Your brand, <br /> build <span className="gradient-text">better.</span>
       </p>
       <div>
-        <Paragraph className="py-0">Company Number: 13426455</Paragraph>
-        <Paragraph className="py-0">
-          Privacy Policy | Terms & Conditions
-        </Paragraph>
+        <Paragraph py="py-2">Company Number: +92300525887</Paragraph>
       </div>
     </div>
   );

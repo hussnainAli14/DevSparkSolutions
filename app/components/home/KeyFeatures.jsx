@@ -24,9 +24,8 @@ const KeyFeatures = () => {
         ))}
       </div>
       <div className="flex flex-row gap-4">
-        <Button btnText="See our plans" href="/pricing" type="primary" />
         <Button
-          btnText="Unique Project"
+          btnText="Start a new project"
           bgColor="bg-white"
           hoverColor="bg-transparent"
           textColor="black"

@@ -4,7 +4,7 @@ import { outfit } from "./ui/fonts";
 import Navbar from "./ui/header/Navbar";
 
 export const metadata = {
-  title: "DevSpark Solutions",
+  title: "DevCrew",
 };
 
 export default function RootLayout({ children }) {

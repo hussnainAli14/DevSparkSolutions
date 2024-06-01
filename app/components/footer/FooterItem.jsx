@@ -7,7 +7,7 @@ const FooterItem = ({ heading, subItems }) => {
       {subItems.map((item, index) => (
         <Link
           href={item.path}
-          className="p-0 text-darkgrey hover:text-white"
+          className=" text-darkgrey hover:text-white"
           key={index}
         >
           {item.name}

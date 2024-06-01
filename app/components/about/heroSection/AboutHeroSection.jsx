@@ -15,7 +15,7 @@ const AboutHeroSection = () => {
             heading={
               <>
                 Everything you need to know{" "}
-                <span className="gradient-text">about DevSpark Solutions.</span>
+                <span className="gradient-text">about DevCrew.</span>
               </>
             }
             para="Find out more about what makes us tick as a company, why we do what we

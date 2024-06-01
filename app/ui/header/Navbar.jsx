@@ -52,7 +52,7 @@ const Navbar = () => {
             {!isScrolled && (
               <Link href="/">
                 <Image
-                  src="/Images/logo.png"
+                  src="/Images/logos/logo-transparent.png"
                   alt="Logo"
                   width={125}
                   height={50}

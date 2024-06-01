@@ -5,17 +5,21 @@ import FooterItem from "./FooterItem";
 
 const RightSection = () => {
   return (
-    <div className="flex flex-nowrap flex-row justify-center ">
+    <div className="flex flex-nowrap flex-row  ">
       {footerData.map((item, index) => (
-        <div className="flex flex-col w-full md:w-3/4 gap-5" key={index}>
-          <div>
-            <Paragraph color="text-royalblue" className="text-lg font-bold">
-              {item.heading}
-            </Paragraph>
-          </div>
-          <div>
-            <FooterItem subItems={item.subItems} />
-          </div>
+        <div className="flex flex-col w-full md:w-3/4 gap-5 " key={index}>
+          {/* <div> */}
+          <Paragraph
+            py="py-0"
+            color="text-royalblue"
+            className="text-lg font-bold"
+          >
+            {item.heading}
+          </Paragraph>
+          {/* </div> */}
+          {/* <div> */}
+          <FooterItem subItems={item.subItems} />
+          {/* </div> */}
         </div>
       ))}
     </div>
