@@ -433,7 +433,7 @@ export const projects = [
     extraInfo: [
       {
         detail:
-          "The app is owned by The United Family company. This app is being developed by [our company name].The tech stack used in the development of the app includes React Native, and Firebase. ",
+          "The app is owned by The United Family company. This app is being developed by DevCrew.The tech stack used in the development of the app includes React Native, and Firebase. ",
         image: "/Images/projects/united-tilted-right.png",
       },
       {
@@ -454,7 +454,7 @@ export const projects = [
     extraInfo: [
       {
         detail:
-          "The app is owned by the company V4h2O. his app is being developed by [our company name].The tech stack used in the development of the app includes React Native, and Firebase. ",
+          "The app is owned by the company V4h2O. his app is being developed by DevCrew.The tech stack used in the development of the app includes React Native, and Firebase. ",
         image: "/Images/projects/v4h2o-tilted-right.png",
       },
       {
@@ -477,7 +477,7 @@ export const projects = [
     extraInfo: [
       {
         detail:
-          "The app is owned by the company V4h2O. his app is being developed by [our company name].The tech stack used in the development of the app includes React Native, and Firebase. ",
+          "The app is owned by the company V4h2O. his app is being developed by DevCrew.The tech stack used in the development of the app includes React Native, and Firebase. ",
         image: "/Images/homelyne_3.png",
       },
       {
@@ -500,7 +500,7 @@ export const projects = [
     extraInfo: [
       {
         detail:
-          "The app is owned by the company Pubkit. his app is being developed by [our company name].The tech stack used in the development of the app includes React Native, and Firebase.",
+          "The app is owned by the company Pubkit. his app is being developed by DevCrew.The tech stack used in the development of the app includes React Native, and Firebase.",
         image: "/Images/projects/pubkit-tilted-right.png",
       },
       {
