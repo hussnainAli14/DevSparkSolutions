@@ -5,6 +5,7 @@ import NavItems from "./NavItems";
 import Button from "../buttons/Button";
 import MobileNavbar from "./MobileNavbar";
 import Link from "next/link";
+import { appImages } from "@/app/lib/assets/images";
 
 const Navbar = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -52,7 +53,7 @@ const Navbar = () => {
             {!isScrolled && (
               <Link href="/">
                 <Image
-                  src="/Images/logos/logo-transparent.png"
+                  src={appImages.logo}
                   alt="Logo"
                   width={125}
                   height={50}
