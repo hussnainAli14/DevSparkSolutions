@@ -5,6 +5,16 @@ import Navbar from "./ui/header/Navbar";
 
 export const metadata = {
   title: "DevCrew",
+  keywords: [
+    "craigslist web developer jobs los angeles",
+    "web",
+    "software",
+    "jobs",
+    "web developer",
+    "web development",
+    "web development salary",
+    "web development company",
+  ],
 };
 
 export default function RootLayout({ children }) {
