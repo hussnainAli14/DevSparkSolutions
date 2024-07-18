@@ -45,7 +45,7 @@ const WorkItem = ({ el, index, hasButton = true, fullDesc = true }) => {
           <WorkButton
             id={el.id}
             btnText="See Full Case Study"
-            path="project-details"
+            path="ProjectDetails"
           />
         )}
       </MotionDiv>

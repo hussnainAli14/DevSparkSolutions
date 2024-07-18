@@ -31,11 +31,8 @@ const WorkCard = ({
       onMouseLeave={() => setIsHovered(false)}
       variants={!isEven ? fadeInLeftVariant : fadeInRightVariant}
       className={`flex flex-col h-fit gap-5 pt-3 pb-10 px-5 bg-lightGray w-[90%] md:${width} rounded-xl ${mediumScreenMargin}  `}
-
     >
-    <Link
-      href={{ pathname: "/project-details", query: { id: id } }}
-    >
+      <Link href={{ pathname: "/ProjectDetails", query: { id: id } }}>
         <div className={` ${imgBg} rounded-lg `}>
           <Image
             src={imagetoShow}
@@ -65,8 +62,8 @@ const WorkCard = ({
           {projectName}
         </p>
         <Paragraph py="1">{truncate(projectDesc)}</Paragraph>
-    </Link>
-      </MotionDiv>
+      </Link>
+    </MotionDiv>
   );
 };
 
